@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
  * @author Eddy
  */
 public class Crm extends javax.swing.JDialog {
-        public Connection con;
+        //public Connection con;
         
         private int adhId;
     /**
@@ -24,7 +24,7 @@ public class Crm extends javax.swing.JDialog {
         initComponents();
         this.setTitle("CRM");
         this.setLocationRelativeTo(this);
-        this.con = con;
+        //this.con = con;
         //this.id = id;
         //populate();
     }
